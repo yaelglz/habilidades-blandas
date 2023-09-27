@@ -1,0 +1,66 @@
+/* @import './base.css'; */
+body {
+  margin: 0;
+}
+
+/* Estilos para el banner y el contenedor */
+.banner-container {
+  position: relative;
+  width: 100%;
+  /* Ancho del 100% para ocupar toda la página */
+  height: 100%;
+  /* Altura deseada del banner */
+}
+
+.banner {
+  width: 100%;
+  /* Ancho del 100% para ocupar todo el contenedor */
+  height: 100%;
+  object-fit: cover;
+  /* Ajusta la imagen al tamaño del banner */
+}
+
+/* Estilos para el mensaje debajo de la imagen */
+.mensaje {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.intro {
+  width: 100%;
+  flex: 1;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.burbuja {
+  display:block;
+  background-color: #8294C4;
+  padding: 20px;
+  color: #222;
+  border-radius: 3px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 150px;
+}
+
+p{
+  font-size: 27px;
+  font-weight: 350;
+  color: #222;
+}
+
+.footer {
+  text-align: right;
+  background-color: #8294C4;
+  color: #222;
+  padding: 10px;
+}
