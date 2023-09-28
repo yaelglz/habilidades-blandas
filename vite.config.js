@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: "/habilidades-blandas/",
+  // base: "/habilidades-blandas/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
