@@ -7,7 +7,10 @@ import Footer from './components/Footer.vue'
   <div>
     <header>
       <div class="banner-container">
-        <img alt="banner" class="banner" src="./assets/banner.jpg" />
+        <img alt="banner" class="banner" src="./assets/s1.jpg" />
+        <div class="texto-en-banner">
+          <p>Habilidades Blandas</p>
+        </div>
       </div>
     </header>
     <main>

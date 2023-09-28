@@ -1,23 +1,60 @@
 /* @import './base.css'; */
 body {
   margin: 0;
+  font-family: "Montserrat Extra-Light", sans-serif;
+  /* Establece Montserrat Extra-Light como la fuente predeterminada para el cuerpo del documento */
+  font-weight: 200;
+  /* Ajusta el peso de la fuente a Extra-Light (200) */
+}
+
+header {
+  background-color: #f2be7e;
+  color: #fff;
+  padding: 10px;
 }
 
 /* Estilos para el banner y el contenedor */
 .banner-container {
-  position: relative;
-  width: 100%;
-  /* Ancho del 100% para ocupar toda la página */
-  height: 100%;
-  /* Altura deseada del banner */
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  height: 450px;
 }
 
 .banner {
   width: 100%;
   /* Ancho del 100% para ocupar todo el contenedor */
-  height: 100%;
   object-fit: cover;
   /* Ajusta la imagen al tamaño del banner */
+}
+
+.texto-en-banner {
+  position: absolute;
+  /* Posición absoluta para que el texto no se mueva */
+  border-color: #f2be7e;
+  border-style: solid;
+  border-width: 5px;
+  padding: 20px 90px;
+  margin: 0 auto;
+  /* Centrar el texto */
+  top: 30%;
+  /* Posición vertical */
+  left: 50%;
+  /* Posición horizontal */
+  transform: translate(-50%, -50%);
+  /* Centrar el texto */
+  background-color: rgba(128, 128, 128, 0.19);
+  width: 550px;
+}
+
+.texto-en-banner p {
+  color: #000;
+  margin: 0;
+  font-size: 100px;
+  font-weight: 750;
+  text-align: center;
 }
 
 /* Estilos para el mensaje debajo de la imagen */
@@ -26,33 +63,64 @@ body {
   padding-bottom: 50px;
 }
 
-.intro {
-  width: 100%;
-  flex: 1;
-}
-
-.container{
+.container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.burbuja {
-  display:block;
-  background-color: #8294C4;
-  padding: 20px;
-  color: #222;
-  border-radius: 3px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 150px;
+.tops {
+  width: 750px;
+  /* Ajusta el ancho de la imagen según tus necesidades */
 }
 
-p{
+.intro {
+  flex: auto;
+  /* Ajusta el ancho del contenedor según tus necesidades */
+  padding: 20px;
+  color: #222;
+  margin-right: 20px;
+  /* Espacio entre el texto y la imagen */
+  text-align: left;
+  /* Alinea el texto a la derecha */
+}
+
+.burbuja {
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  /* Texto en negrita */
+  margin-bottom: 40px;
+  /* Espacio entre el título y el párrafo */
+}
+
+.vid-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #f2be7e;
+}
+
+.video {
+  flex: auto;
+  padding: 80px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.npc {
+  width: 750px;
+}
+
+p {
   font-size: 27px;
   font-weight: 350;
   color: #222;
@@ -60,7 +128,128 @@ p{
 
 .footer {
   text-align: right;
-  background-color: #8294C4;
+  background-color: #f2f2f2;
   color: #222;
   padding: 10px;
+}
+
+/* Estilos para moviles */
+
+@media screen and (max-width: 860px) {
+
+  header {
+    max-width: 100%;
+  }
+
+  /* Eliminar overflow-x */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .banner-container {
+    position: relative;
+    /* Agregamos posición relativa al contenedor */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 450px;
+  }
+
+  .texto-en-banner {
+    top: 50%;
+    /* Colocamos el texto en el centro verticalmente */
+    left: 50%;
+    /* Colocamos el texto en el centro horizontalmente */
+    transform: translate(-50%, -50%);
+    /* Centramos el texto exactamente en el medio */
+    background-color: rgba(128, 128, 128, 0.19);
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #f2be7e;
+    z-index: 1;
+    /* Asegura que el texto esté sobre la imagen */
+  }
+
+  .texto-en-banner p {
+    color: #000;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 750;
+  }
+
+  .container {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 100%;
+  }
+
+  .tops {
+    max-width: 100%;
+  }
+
+  .intro {
+    flex: auto;
+    padding: 20px;
+    color: #222;
+    margin-right: 20px;
+    text-align: left;
+  }
+
+  .burbuja {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .vid-sec {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f2be7e;
+  }
+
+  .video {
+    flex: auto;
+    padding: 10px;
+    margin-right: 0;
+    width: 90%;
+  }
+
+  /* Ajuste del video para dispositivos móviles */
+  .video iframe {
+    max-width: 100%;
+    /* Establece el ancho al 100% del contenedor */
+    height: 20rem ;
+    /* Mantiene la proporción de la imagen */
+  }
+
+  .npc {
+    width: 100%;
+    /* Establece el ancho al 100% del contenedor */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+  }
+
+  .npc img {
+    height: 15rem;
+    width: 15rem;
+  }
+
+
+  p {
+    font-size: 31px;
+    font-weight: 350;
+    color: #222;
+  }
+
+  .footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #222;
+    padding: 10px;
+  }
 }
