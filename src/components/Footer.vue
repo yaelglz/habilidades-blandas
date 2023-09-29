@@ -1,6 +1,6 @@
 <template>
     <footer class="footer">
-        Creado con ❤️ por 8IAD11 ©2023
+        ©2023 Creado con ❤️ por 8IAD11
     </footer>
 </template>
 
