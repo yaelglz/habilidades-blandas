@@ -21,16 +21,30 @@
       <img src="../assets/NPC1.png" alt="" width="350" />
     </div>
   </div>
+  <div class="container-vid">
+    <div class="video-container">
+      <video controls style="width: 70%; height: auto;">
+        <source src="../../src/assets/Video1.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="divider">
+      <img src="../assets/Tips.png" alt="" style="width: 500px; height: auto; margin: 0 auto; display: block;">
+    </div>
+    <div class="video-container">
+      <video controls style="width: 70%; height: auto;">
+        <source src="../../src/assets/Video2.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
   <div>
-    <video width="50%" height="50%" controls>
-      <source :src="videoS" type="video/mp4" />
-    </video>
+    <image-slider></image-slider>
   </div>
 </template>
 
 
 
 <script setup>
+// import ImageSlider from './ImageSlider.vue'; // Ajusta la ruta según tu estructura de archivos
 import { ref } from "vue";
 const videoS = ref("../assets/Video1.mp4");
 const mensaje = "¿Qué son las habilidades blandas?";

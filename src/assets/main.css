@@ -133,6 +133,15 @@ p {
   padding: 10px;
 }
 
+.container-vid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  /* Divide el espacio en tres columnas, la del medio se ajusta automáticamente */
+  align-items: center;
+  /* Centra verticalmente los elementos en la fila */
+  margin-bottom: 50px;
+}
+
 /* Estilos para moviles */
 
 @media screen and (max-width: 860px) {
@@ -223,7 +232,7 @@ p {
   .video iframe {
     max-width: 100%;
     /* Establece el ancho al 100% del contenedor */
-    height: 20rem ;
+    height: 20rem;
     /* Mantiene la proporción de la imagen */
   }
 
