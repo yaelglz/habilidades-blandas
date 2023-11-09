@@ -37,7 +37,16 @@
     </div>
   </div>
   <div>
-    <image-slider></image-slider>
+    <div class="info1">
+      <img src="../assets/Info1.jpeg" width="900"/>
+    </div>
+    <div class="info2">
+      <img src="../assets/Info2.jpeg" />
+    </div>
+    <div class="info-row">
+      <img src="../assets/Info3.jpeg" alt="" width="650" style="margin-right: 200px;" />
+      <img src="../assets/Info4.jpeg" />
+    </div>
   </div>
 </template>
 
