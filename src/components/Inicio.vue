@@ -23,29 +23,32 @@
   </div>
   <div class="container-vid">
     <div class="video-container">
-      <video controls style="width: 70%; height: auto;">
+      <video controls>
         <source src="../../src/assets/Video1.mp4" type="video/mp4" />
       </video>
     </div>
     <div class="divider">
-      <img src="../assets/Tips.png" alt="" style="width: 500px; height: auto; margin: 0 auto; display: block;">
+      <img src="../assets/Tips.png" alt="">
     </div>
     <div class="video-container">
-      <video controls style="width: 70%; height: auto;">
+      <video controls>
         <source src="../../src/assets/Video2.mp4" type="video/mp4" />
       </video>
     </div>
   </div>
   <div>
     <div class="info1">
-      <img src="../assets/Info1.jpeg" width="900"/>
+      <img src="../assets/Info1.jpeg" width="900" />
     </div>
     <div class="info2">
       <img src="../assets/Info2.jpeg" />
     </div>
     <div class="info-row">
-      <img src="../assets/Info3.jpeg" alt="" width="650" style="margin-right: 200px;" />
-      <img src="../assets/Info4.jpeg" />
+      <img src="../assets/Info3.jpeg" alt=""/>
+      <div>
+        <p>Funciones del cerebro</p>
+        <img src="../assets/Info4.jpeg" />
+      </div>
     </div>
   </div>
 </template>

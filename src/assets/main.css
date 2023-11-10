@@ -142,6 +142,18 @@ p {
   margin-bottom: 50px;
 }
 
+.video-container video{
+  width: 70%;
+  /* Ajusta el ancho del video según tus necesidades */
+  height: auto;
+}
+
+.divider img{
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
 .info1{
   margin-bottom: 50px;
 }
@@ -162,12 +174,24 @@ p {
 }
 
 .info-row{
-  display: flex;
-  flex-direction: row;
+  display: grid;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  grid-template-columns: 1fr 1fr;
+  /*Espacio a la derecha*/
+  margin-right: 50px;
+  /*Espacio a la izquierda*/
+  margin-left: 150px;
+}
 
+.info-row p{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.info-row img {
+  width: 650px;
 }
 
 /* Estilos para moviles */
@@ -288,5 +312,50 @@ p {
     background-color: #f2f2f2;
     color: #222;
     padding: 10px;
+  }
+
+  .container-vid {
+    grid-template-columns: 1fr;
+  }
+
+  .video-container video {
+    width: 90%;
+  }
+
+  .divider img {
+    width: 100%;
+  }
+
+  .info-row img {
+    width: 100%;
+    max-width: 70%; /* Ajustado para un tamaño más adecuado en móviles */
+    /*Alinear al centro*/
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .info1 img {
+    width: 100%;
+    max-width: 90%; /* Ajustado para un tamaño más adecuado en móviles */
+    /*Alinear al centro*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .info2 img {
+    width: 100%;
+    max-width: 90%; /* Ajustado para un tamaño más adecuado en móviles */
+    /*Alinear al centro*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .info-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
