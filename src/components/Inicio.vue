@@ -159,6 +159,58 @@
       <img src="../assets/funcioncerebral.png">
     </div>
   </div>
+  <br>
+  <br>
+  <h1>DIFERENCIA ENTRE LIDERAZGO Y COACHING</h1>
+  <h2>LIDERAZGO</h2>
+  <div class="container-liderazgo">
+    <div class="info-liderazgo">
+      <div class="container-caracte">
+        <h2>Definición</h2>
+        <p> Conjunto de habilidades directivas que tiene un individuo para influir en otros, cuando esta persona establece
+          sus principios éticos, toma las decisiones correctas y actúa con bien, podemos decir que da ejemplo a otros
+          sobre
+          etica y sirve de inspiración.</p>
+        <h2>Importancia</h2>
+        <p>Los lideres tienen responsabilidades éticas porque poseen una posición especial en la que existe una mayor
+          oportunidad de influir en los demás y en los resultados. </p>
+      </div>
+      <div class="container-caracte">
+        <img src="../assets/liderazgo.png">
+        <h3>Características</h3>
+        <ul>
+          <li>El líder tiene estándares éticos más elevados.</li>
+          <li>Sus conductas moldean el comportamiento de los demás.</li>
+          <li>Los valores del líder influyen en la cultura de la organización.</li>
+          <li>Marcan la pauta, desarrollan la visión y los valores de los otros.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="info-liderazgo">
+      <div class="container-caracte">
+        <img src="../assets/jefevslider.jpg" class="imagen-destacada">
+      </div>
+      <div class="container-caracte">
+        <h2>Buen Líder</h2>
+        <p>Persona que conduce hacia resultados éticos y no alguien que simplemente es bueno para liderar.</p>
+        <ul>
+          <li>Transformador</li>
+          <li>Actitud de Servicio</li>
+          <li>Autentico</li>
+          <li>Con Valores</li>
+          <li>Honesto</li>
+          <li>Preocupado por la comunidad</li>
+        </ul>
+        <h2>Principios del liderazgo</h2>
+        <ul>
+          <li>Orientación humana</li>
+          <li>Orientación hacia la responsabilidad y la sostenibilidad</li>
+          <li>Orientación a la justicia</li>
+          <li>Orientación de la moderación entre las distintas partes interesadas</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </template>
 
 

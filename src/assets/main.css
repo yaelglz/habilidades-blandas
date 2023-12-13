@@ -295,6 +295,46 @@ h3 {
   height: auto;
 }
 
+.container-liderazgo *{
+    font-size: 20px; /* Ajusta el tamaño de la fuente según tus preferencias */
+}
+.container-liderazgo{
+  display: grid; /* Grid sirve para dividir el espacio en columnas y filas */
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.info-liderazgo{
+  display: grid; /* Grid sirve para dividir el espacio en columnas y filas */
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.container-liderazgo img{
+  width: 45%;
+  /* Ajusta el ancho del video según tus necesidades */
+  height: auto;
+}
+
+.container-caracte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Esto centrará el texto en caso de que haya dentro de .container-caracte */
+  align-items: center;
+  text-align: left; /* Esto centrará el texto en caso de que haya dentro de .container-caracte */
+}
+
+.container-caracte .imagen-destacada { 
+  height: auto;
+  width: 80%; /* Ajusta el valor según sea necesario */
+  max-height: 800px; /* Ajusta el valor según sea necesario */
+}
+
+
 
 /* Estilos para moviles */
 
