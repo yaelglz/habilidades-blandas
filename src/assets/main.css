@@ -259,35 +259,27 @@ h3 {
 }
 
 /* Colores */
-dt:nth-child(odd) {
+.rojo {
   background-color: #ff5733; /* Rojo */
 }
 
-dt:nth-child(2n) {
+.amarillo {
   background-color: #ffd700; /* Amarillo */
 }
 
-dt:nth-child(3n) {
+.verde {
   background-color: #4caf50; /* Verde */
 }
 
-dt:nth-child(4n) {
+.morado {
   background-color: #800080; /* Morado */
 }
 
-dt:nth-child(5n) {
+.azul {
   background-color: #3498db; /* Azul */
 }
 
-dt:nth-child(6n) {
-  background-color: #3498db; /* Azul */
-}
-
-dt:nth-child(7n) {
-  background-color: #ffd700; /* Amarillo */
-}
-
-dt:nth-child(8n) {
+.naranja {
   background-color: #ff8c00; /* Naranja */
 }
 

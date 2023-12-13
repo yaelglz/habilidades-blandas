@@ -96,7 +96,7 @@
     <div class="info-cerebro">
       <h1>FUNCIONES DEL CEREBRO </h1>
       <dl>
-        <dt>
+        <dt class="rojo">
           <h3>ATENCIÓN</h3>
         </dt>
         <dd>Capacidad para mantener un estado de alerta suficiente para concentrarse en diversas situaciones.</dd>
@@ -106,11 +106,11 @@
           <li>Durante un período prolongado de tiempo.</li>
         </ul>
 
-        <dt>
+        <dt class="amarillo">
           <h3>LENGUAJE ORAL</h3>
         </dt>
 
-        <dt>
+        <dt class="verde">
           <h3>FUNCIONES EJECUTIVAS</h3>
         </dt>
         <dd>Capacidad para adaptarse a nuevas o complejas situaciones.</dd>
@@ -122,26 +122,26 @@
           <li>Flexibilidad: Capacidad de pasar fácilmente de una idea a otra.</li>
         </ul>
 
-        <dt>
+        <dt class="morado">
           <h3>MOTRICIDAD</h3>
         </dt>
         <dd>Control del movimiento del cuerpo.</dd>
 
-        <dt>
+        <dt class="azul">
           <h3>PERCEPCIÓN</h3>
         </dt>
         <dd>De la forma, del color, de la distancia de los objetos.</dd>
 
-        <dt>
+        <dt class="azul">
           <h3>ORIENTACIÓN</h3>
         </dt>
         <dd>Percepción de las relaciones entre los objetos en el espacio.</dd>
 
-        <dt>
+        <dt class="amarillo">
           <h3>LENGUAJE ESCRITO</h3>
         </dt>
 
-        <dt>
+        <dt class="naranja">
           <h3>MEMORIA</h3>
         </dt>
         <ul>
