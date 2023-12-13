@@ -334,7 +334,13 @@ h3 {
   max-height: 800px; /* Ajusta el valor según sea necesario */
 }
 
-
+.container-coaching{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
 
 /* Estilos para moviles */
 

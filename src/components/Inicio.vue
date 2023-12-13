@@ -36,7 +36,7 @@
       </video>
     </div>
   </div>
-  <div>
+  <div> <!--Infografias-->
     <div class="info1">
       <img src="../assets/Info1.jpeg" width="900" />
     </div>
@@ -160,9 +160,8 @@
     </div>
   </div>
   <br>
-  <br>
-  <h1>DIFERENCIA ENTRE LIDERAZGO Y COACHING</h1>
-  <h2>LIDERAZGO</h2>
+  <h1 style="font-size: 3em;">DIFERENCIA ENTRE LIDERAZGO Y COACHING</h1>
+  <h1>LIDERAZGO</h1>
   <div class="container-liderazgo">
     <div class="info-liderazgo">
       <div class="container-caracte">
@@ -211,12 +210,37 @@
       </div>
     </div>
   </div>
+  <h1>COACHING</h1>
+  <div class="container-coaching">
+    <div class="container-caracte">
+      <h1>Coaching es:</h1>
+      <ul>
+        <li>Acompañar, guiar y facilitar.</li>
+        <li>Un proceso para aprender y desarrollarse.</li>
+        <li>Interacción para lograr compromisos mutuos.</li>
+        <li>Proceso orientado a la acción y focalizado en la meta.</li>
+      </ul>
+    </div>
+    <div>
+      <img src="../assets/coaching.png" alt="">
+    </div>
+    <div class="container-caracte">
+      <h1>Coaching no es:</h1>
+      <ul>
+        <li>Terapia</li>
+        <li>Consultoria</li>
+        <li>Supervisión</li>
+        <li>Mentoring</li>
+      </ul>
+    </div>
+  </div>
+  <Timeline />
 </template>
 
 
 
 <script setup>
+import Timeline from './Timeline.vue'
 // import ImageSlider from './ImageSlider.vue'; // Ajusta la ruta según tu estructura de archivos
-import { ref } from "vue";
 const mensaje = "¿Qué son las habilidades blandas?";
 </script>
