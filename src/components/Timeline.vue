@@ -73,10 +73,16 @@ export default {
 </script>
   
 <style scoped>
+.event:hover .event-details,
+.event .event-info:hover+.event-details {
+    left: 0;
+    /* Cambia el valor a 0 cuando se hace clic o se pasa el ratón sobre la tarjeta de información */
+}
+
 .timeline {
     position: relative;
-    width: 80%;
-    margin: 50px auto;
+    width: 100%;
+    margin: 100px auto;
 }
 
 .timeline-line {
@@ -84,8 +90,8 @@ export default {
     top: 50%;
     left: 0;
     width: 100%;
-    height: 2px;
-    background-color: #f2be7e;
+    height: 4px;
+    background-color: #ffffff;
     transform: translateY(-50%);
 }
 
@@ -93,24 +99,38 @@ export default {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: #f2be7e;
+    background-color: #ffffff;
     border-radius: 50%;
     cursor: pointer;
+    /* Ajusta estos valores según sea necesario */
+    top: 50%;
+    /* Puedes ajustar la posición vertical */
+    left: 50%;
+    /* Puedes ajustar la posición horizontal */
+    transform: translate(-50%, -50%);
+    /* Centra el elemento correctamente */
 }
+
 
 .event-info {
     position: absolute;
     top: -80px;
-    left: -50%;
+    left: 50%;
+    /* Ajusta la posición horizontal para centrar la tarjeta sobre el evento */
+    transform: translateX(-50%);
+    /* Centra la tarjeta correctamente */
     background-color: #ffffff;
     padding: 10px;
-    border: 1px solid #f2be7e;
+    border: 1px solid #000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s;
     cursor: pointer;
+    width: 200px;
+    z-index: 1;
+    /* Asegura que la tarjeta esté por encima del círculo */
 }
 
 .event:hover .event-info {
@@ -121,6 +141,7 @@ export default {
     position: absolute;
     top: -120px;
     left: -200%;
+    /* Ajusta este valor según tus necesidades iniciales */
     background-color: #ffffff;
     padding: 20px;
     border: 1px solid #f2be7e;
@@ -128,9 +149,12 @@ export default {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
     opacity: 1;
-    transition: left 0.3s;
-    width: 300px;
+    transition: left 0.3s, width 0.3s;
+    /* Mantén la transición de la posición izquierda y agrega la transición del ancho */
+    width: 350px;
+    /* Ajusta el ancho según tu preferencia */
     z-index: 1;
+    /* Asegura que la tarjeta esté por encima del círculo */
 }
 
 .event:hover .event-details {
@@ -152,6 +176,4 @@ export default {
     position: absolute;
     top: 10px;
     right: 10px;
-}
-</style>
-  
+}</style>

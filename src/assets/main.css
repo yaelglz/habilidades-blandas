@@ -142,29 +142,30 @@ p {
   margin-bottom: 50px;
 }
 
-.video-container video{
+.video-container video {
   width: 70%;
   /* Ajusta el ancho del video según tus necesidades */
   height: auto;
 }
 
-.divider img{
+.divider img {
   width: 500px;
   height: auto;
   margin: 0 auto;
   display: block;
 }
-.info1{
+
+.info1 {
   margin-bottom: 50px;
 }
 
-.info2{
+.info2 {
   margin-bottom: 50px;
   background-color: #f2be7e;
   padding: 10px;
 }
 
-.info2 img{
+.info2 img {
   /*borde estilo comic*/
   border-style: solid;
   border-width: 5px;
@@ -173,7 +174,7 @@ p {
   object-fit: cover;
 }
 
-.info-row{
+.info-row {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -185,7 +186,7 @@ p {
   margin-left: 150px;
 }
 
-.info-row p{
+.info-row p {
   font-weight: bold;
   font-size: 40px;
 }
@@ -193,24 +194,28 @@ p {
 .info-row img {
   width: 650px;
 }
-.container-persuasion{
+
+.container-persuasion {
   margin-left: 50px;
   margin-right: 50px;
 }
-.container-persuasion p{
+
+.container-persuasion p {
   margin-right: 50px;
   /*Espacio a la izquierda*/
   margin-left: 50px;
   font-size: 20px;
 }
 
-.container-persuasion img{
+.container-persuasion img {
   width: 30%;
   /* Ajusta el ancho del video según tus necesidades */
   height: auto;
 }
-.info-puntos{
-  display: grid; /* Grid sirve para dividir el espacio en columnas y filas */
+
+.info-puntos {
+  display: grid;
+  /* Grid sirve para dividir el espacio en columnas y filas */
   margin-bottom: 50px;
   grid-template-columns: 1fr 1fr;
   /*Espacio a la derecha*/
@@ -220,13 +225,14 @@ p {
   margin-top: 50px;
 }
 
-.container-cerebro{
-  display: grid; /* Grid sirve para dividir el espacio en columnas y filas */
+.container-cerebro {
+  display: grid;
+  /* Grid sirve para dividir el espacio en columnas y filas */
   grid-template-columns: 1fr 1fr;
   margin-top: 50px
 }
 
-.info-cerebro{
+.info-cerebro {
   margin-bottom: 50px;
   margin-top: 50px;
   margin-right: 50px;
@@ -260,27 +266,33 @@ h3 {
 
 /* Colores */
 .rojo {
-  background-color: #ff5733; /* Rojo */
+  background-color: #ff5733;
+  /* Rojo */
 }
 
 .amarillo {
-  background-color: #ffd700; /* Amarillo */
+  background-color: #ffd700;
+  /* Amarillo */
 }
 
 .verde {
-  background-color: #4caf50; /* Verde */
+  background-color: #4caf50;
+  /* Verde */
 }
 
 .morado {
-  background-color: #800080; /* Morado */
+  background-color: #800080;
+  /* Morado */
 }
 
 .azul {
-  background-color: #3498db; /* Azul */
+  background-color: #3498db;
+  /* Azul */
 }
 
 .naranja {
-  background-color: #ff8c00; /* Naranja */
+  background-color: #ff8c00;
+  /* Naranja */
 }
 
 .imagen-cerebro {
@@ -295,18 +307,22 @@ h3 {
   height: auto;
 }
 
-.container-liderazgo *{
-    font-size: 20px; /* Ajusta el tamaño de la fuente según tus preferencias */
+.container-liderazgo * {
+  font-size: 20px;
+  /* Ajusta el tamaño de la fuente según tus preferencias */
 }
-.container-liderazgo{
-  display: grid; /* Grid sirve para dividir el espacio en columnas y filas */
+
+.container-liderazgo {
+  display: grid;
+  /* Grid sirve para dividir el espacio en columnas y filas */
   margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.info-liderazgo{
-  display: grid; /* Grid sirve para dividir el espacio en columnas y filas */
+.info-liderazgo {
+  display: grid;
+  /* Grid sirve para dividir el espacio en columnas y filas */
   grid-template-columns: 1fr 1fr;
   margin-top: 50px;
   margin-right: 50px;
@@ -314,7 +330,7 @@ h3 {
   text-align: left;
 }
 
-.container-liderazgo img{
+.container-liderazgo img {
   width: 45%;
   /* Ajusta el ancho del video según tus necesidades */
   height: auto;
@@ -323,23 +339,63 @@ h3 {
 .container-caracte {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Esto centrará el texto en caso de que haya dentro de .container-caracte */
+  justify-content: center;
+  /* Esto centrará el texto en caso de que haya dentro de .container-caracte */
   align-items: center;
-  text-align: left; /* Esto centrará el texto en caso de que haya dentro de .container-caracte */
+  text-align: left;
+  /* Esto centrará el texto en caso de que haya dentro de .container-caracte */
 }
 
-.container-caracte .imagen-destacada { 
+.container-caracte .imagen-destacada {
   height: auto;
-  width: 80%; /* Ajusta el valor según sea necesario */
-  max-height: 800px; /* Ajusta el valor según sea necesario */
+  width: 80%;
+  /* Ajusta el valor según sea necesario */
+  max-height: 800px;
+  /* Ajusta el valor según sea necesario */
 }
 
-.container-coaching{
+.container-coaching {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 50px;
   margin-right: 50px;
   margin-left: 50px;
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+  margin: 50px auto;
+  padding: 100px;
+  /* Ajusta el espacio entre el borde y el contenido */
+  background-color: #f2be7e;
+  background-image: url(../assets/tiempo.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 20%;
+}
+
+.timeline-container h1 {
+  margin-bottom: 20px;
+  /* Ajusta el espacio entre el h1 y el Timeline si es necesario */
+  text-shadow: 2px 2px 5px white;
+  /* Ajusta la sombra del texto para simular un borde blanco */
+}
+
+.full-page-image {
+  width: calc(100vw - 100px); /* 100px para los márgenes izquierdo y derecho */
+  height: 100vh;
+  margin: 0 50px; /* Margen de 50px a la izquierda y derecha */
+  overflow: hidden;
+}
+
+.full-page-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Estilos para moviles */
@@ -476,7 +532,8 @@ h3 {
 
   .info-row img {
     width: 100%;
-    max-width: 70%; /* Ajustado para un tamaño más adecuado en móviles */
+    max-width: 70%;
+    /* Ajustado para un tamaño más adecuado en móviles */
     /*Alinear al centro*/
     margin-left: auto;
     margin-right: auto;
@@ -485,7 +542,8 @@ h3 {
 
   .info1 img {
     width: 100%;
-    max-width: 90%; /* Ajustado para un tamaño más adecuado en móviles */
+    max-width: 90%;
+    /* Ajustado para un tamaño más adecuado en móviles */
     /*Alinear al centro*/
     margin-left: auto;
     margin-right: auto;
@@ -493,7 +551,8 @@ h3 {
 
   .info2 img {
     width: 100%;
-    max-width: 90%; /* Ajustado para un tamaño más adecuado en móviles */
+    max-width: 90%;
+    /* Ajustado para un tamaño más adecuado en móviles */
     /*Alinear al centro*/
     margin-left: auto;
     margin-right: auto;

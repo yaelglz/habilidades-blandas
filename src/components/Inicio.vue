@@ -234,7 +234,13 @@
       </ul>
     </div>
   </div>
-  <Timeline />
+  <div class="timeline-container">
+    <h1>PROCESO DEL COACHING</h1>
+    <Timeline />
+  </div>
+  <div class="full-page-image">
+  <img src="../assets/altodesempeño.jpg" alt="">
+</div>
 </template>
 
 
