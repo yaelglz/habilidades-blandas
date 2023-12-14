@@ -298,14 +298,25 @@ h3 {
 .imagen-cerebro {
   background-color: #f2be7e;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  padding-top: 20px; /* Ajusta el espacio en la parte superior del contenedor */
+  padding-bottom: 20px; /* Ajusta el espacio en la parte inferior del contenedor */
 }
 
 .imagen-cerebro img {
   width: 90%;
   height: auto;
+  margin-bottom: 10px; /* Ajusta el margen inferior de la imagen según sea necesario */
 }
+
+.imagen-cerebro p {
+  margin-top: 50px;
+  margin-bottom: 100px; /* Elimina el margen inferior del párrafo */
+  font-weight: bold;
+}
+
 
 .container-liderazgo * {
   font-size: 20px;
@@ -424,6 +435,87 @@ h3 {
 .resaltado {
   color: #ff0000; /* Cambia el color de resaltado según tus preferencias */
   font-weight: bold; /* Puedes ajustar el peso de la fuente para un mayor énfasis */
+}
+
+.gestion-container{
+  margin-top: 100px;
+}
+
+.info-gestion{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.info-gestion li{
+  font-size: 25px;
+  /* Ajusta el tamaño de la fuente según tus preferencias */
+}
+
+.color-gestion{
+  background-color: #82c6a5;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 50px; /* Utiliza padding en lugar de margen para el espaciado */
+}
+
+.matriz-img img{
+  width: 60%;
+  height: auto;
+}
+
+.matriz-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.kanban-img img{
+  width: 70%;
+  height: auto;
+}
+
+.kanban-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pomodoro-img img{
+  width: 85%;
+  height: auto;
+}
+
+.pomodoro-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empresa-img img{
+  width: 40%;
+  height: auto;
+}
+
+.empresa-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conten-gestion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
 }
 
 /* Estilos para moviles */

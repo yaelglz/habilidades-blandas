@@ -94,7 +94,6 @@
   </div>
   <div class="container-cerebro">
     <div class="info-cerebro">
-      <h1>FUNCIONES DEL CEREBRO </h1>
       <dl>
         <dt class="rojo">
           <h3>ATENCIÓN</h3>
@@ -152,9 +151,9 @@
             experiencias personales, conocimientos generales asociados al lenguaje y conceptos.</li>
         </ul>
       </dl>
-
     </div>
     <div class="imagen-cerebro">
+      <p>Funciones del cerebro que tal vez no conocías y que te ayudarán a desarrollar tus habilidades blandas</p>
       <!-- Imagen Cerebro-->
       <img src="../assets/funcioncerebral.png">
     </div>
@@ -247,33 +246,104 @@
       <h2>CÓMO HACER NETWORKING CUANDO ERES INTROVERTIDO </h2>
       <ol class="custom-list">
         <li class="custom-list-item">
-            <p><span class="resaltado">HAZ CONTACTOS EN LÍNEA</span><br>
+          <p><span class="resaltado">HAZ CONTACTOS EN LÍNEA</span><br>
             Conéctate a través de Likendin, Twitter y Facebook con otros asistentes a eventos de tu sector.</p>
         </li>
         <li class="custom-list-item">
-            <p><span class="resaltado">HABLA DE TUS LOGROS</span><br>
+          <p><span class="resaltado">HABLA DE TUS LOGROS</span><br>
             Esto puede ayudarte a generar las conexiones que necesitas para impulsar tu negocio.</p>
         </li>
         <li class="custom-list-item">
-            <p><span class="resaltado">DISCUTE TUS METAS E IDEALES</span><br>
+          <p><span class="resaltado">DISCUTE TUS METAS E IDEALES</span><br>
             Dar una opinión o charlar sobre un concepto específico puede iniciar una conversación.</p>
         </li>
         <li class="custom-list-item">
-            <p><span class="resaltado">NO LO ANALICES MUCHO</span><br>
+          <p><span class="resaltado">NO LO ANALICES MUCHO</span><br>
             Deja tus interacciones sociales y tu networking en el trabajo cuando sea hora de llegar a casa.</p>
         </li>
         <li class="custom-list-item">
-            <p><span class="resaltado">MANTÉN RELACIONES FUERTES</span><br>
+          <p><span class="resaltado">MANTÉN RELACIONES FUERTES</span><br>
             Los contactos que hagas pueden hablar bien de ti a otros y ayudarte a ampliar tu red profesional.</p>
         </li>
         <li class="custom-list-item">
-            <p><span class="resaltado">TOMA NOTAS</span><br>
+          <p><span class="resaltado">TOMA NOTAS</span><br>
             Es importante recordar las caras y los nombres de quienes conoces en los eventos de tu industria.</p>
         </li>
-    </ol>
+      </ol>
     </div>
     <div class="net-img">
       <img src="../assets/consejosnetworking.jpeg" alt="">
+    </div>
+  </div>
+  <div class="gestion-container">
+    <h1>GESTIÓN DE TIEMPO</h1>
+    <p>Se refiere al proceso de planificar, organizar y controlar el tiempo que se dedica a diferentes actividades con el
+      objetivo de mejorar la eficiencia, productividad y calidad de vida. Es una habilidad crucial en la vida personal y
+      profesional, ya que el tiempo es un recuerso limitado y valioso.</p>
+    <div class="info-gestion">
+      <div class="conten-gestion">
+        <h2>Matriz de Eisenhower.</h2>
+        <p>Esta es una herramienta visual que te ayuda a priorizar tareas según se urgencia e importancia. Puedes utilizar
+          cualquier aplicación de hoja de cálculo o incluso papel y lapíz para crear tu propia matriz de Eisenhower.</p>
+      </div>
+      <div class="matriz-img">
+        <img src="../assets/eisenhower.png" alt="">
+      </div>
+    </div>
+    <div class="info-gestion color-gestion">
+      <div class="conten-gestion">
+        <h2>Técnica Pomodoro.</h2>
+        <p>Consiste en dividir el tiempo en intervalos cortos de trabajo (generalmente 25 minutos) seguidos de breves
+          descansos.</p>
+      </div>
+      <div class="pomodoro-img">
+        <img src="../assets/pomodoro.png" alt="">
+      </div>
+    </div>
+    <div class="info-gestion">
+      <div class="conten-gestion">
+        <h2>Herramienta Kanban</h2>
+        <p>Implica el armado de un tablero visual en el que se catalogan las tareas según su estado. Este sencillo proceso
+          permite mejorar los flujos de trabajo y cumplir con los plazos estipulados.</p>
+      </div>
+      <div class="kanban-img">
+        <img src="../assets/kanban.jpg" alt="">
+      </div>
+    </div>
+    <div class="info-gestion color-gestion">
+      <div class="conten-gestion">
+        <h2>Beneficios:</h2>
+        <ul>
+          <li>Reduce el estrés laboral.</li>
+          <li>Incrementa la productividad.</li>
+          <li>Mejora la toma de decisiones.</li>
+          <li>Mejora su enfoque en las tareas.</li>
+          <li>Contribuye a la consecución de objetivos mucho más rápido.</li>
+        </ul>
+      </div>
+      <div class="conten-gestion">
+        <h2>Como llevar a cabo la gestión del tiempo:</h2>
+        <ol>
+          <li>Planificar</li>
+          <li>Definir prioridades</li>
+          <li>Establecer plazos de tiempo</li>
+          <li>Planificar imprevistos en tiempos muertos</li>
+        </ol>
+      </div>
+    </div>
+    <div class="info-gestion">
+      <div class="conten-gestion">
+        <h2>Para una empresa se beneficia en:</h2>
+        <ul>
+          <li>Reducir costos y gastos en eficiencia, es decir, producir más y mejor en menos tiempo.</li>
+          <li>Evitar errores, desperdicios y retrasos en la producción.</li>
+          <li>Tener un clima organizativo más tranquilo.</li>
+          <li>Asegurar la satisfacción del cliente y garantizar la ventaja competitiva.</li>
+        </ul>
+      </div>
+      <div class="empresa-img">
+        <img src="../assets/empresa.png" alt="">
+      </div>
     </div>
   </div>
 </template>
