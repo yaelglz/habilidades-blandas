@@ -238,9 +238,44 @@
     <h1>PROCESO DEL COACHING</h1>
     <Timeline />
   </div>
-  <div class="full-page-image">
-  <img src="../assets/altodesempeño.jpg" alt="">
-</div>
+  <div class="full-page-image"> <!--Equipo de Alto Desempeño-->
+    <img src="../assets/altodesempeño.jpg" alt="">
+  </div>
+  <div class="net-container">
+    <div class="container-caracte">
+      <h1>NETWORKING</h1>
+      <h2>CÓMO HACER NETWORKING CUANDO ERES INTROVERTIDO </h2>
+      <ol class="custom-list">
+        <li class="custom-list-item">
+            <p><span class="resaltado">HAZ CONTACTOS EN LÍNEA</span><br>
+            Conéctate a través de Likendin, Twitter y Facebook con otros asistentes a eventos de tu sector.</p>
+        </li>
+        <li class="custom-list-item">
+            <p><span class="resaltado">HABLA DE TUS LOGROS</span><br>
+            Esto puede ayudarte a generar las conexiones que necesitas para impulsar tu negocio.</p>
+        </li>
+        <li class="custom-list-item">
+            <p><span class="resaltado">DISCUTE TUS METAS E IDEALES</span><br>
+            Dar una opinión o charlar sobre un concepto específico puede iniciar una conversación.</p>
+        </li>
+        <li class="custom-list-item">
+            <p><span class="resaltado">NO LO ANALICES MUCHO</span><br>
+            Deja tus interacciones sociales y tu networking en el trabajo cuando sea hora de llegar a casa.</p>
+        </li>
+        <li class="custom-list-item">
+            <p><span class="resaltado">MANTÉN RELACIONES FUERTES</span><br>
+            Los contactos que hagas pueden hablar bien de ti a otros y ayudarte a ampliar tu red profesional.</p>
+        </li>
+        <li class="custom-list-item">
+            <p><span class="resaltado">TOMA NOTAS</span><br>
+            Es importante recordar las caras y los nombres de quienes conoces en los eventos de tu industria.</p>
+        </li>
+    </ol>
+    </div>
+    <div class="net-img">
+      <img src="../assets/consejosnetworking.jpeg" alt="">
+    </div>
+  </div>
 </template>
 
 

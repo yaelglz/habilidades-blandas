@@ -398,6 +398,34 @@ h3 {
   object-fit: cover;
 }
 
+.net-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: medium;
+}
+
+.net-img img{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+
+}
+
+.custom-list-item p{
+  font-size: 20px; /* Ajusta el tamaño del texto de la lista según tus preferencias */
+  margin-bottom: 10px; /* Agrega un espacio entre los elementos de la lista */
+}
+
+.resaltado {
+  color: #ff0000; /* Cambia el color de resaltado según tus preferencias */
+  font-weight: bold; /* Puedes ajustar el peso de la fuente para un mayor énfasis */
+}
+
 /* Estilos para moviles */
 
 @media screen and (max-width: 860px) {
