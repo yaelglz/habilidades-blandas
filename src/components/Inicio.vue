@@ -346,6 +346,31 @@
       </div>
     </div>
   </div>
+  <div class="imagen-container">
+    <h1>MATRIZ DE LA GESTIÓN DEL TIEMPO</h1>
+  <div class="imagen-row">
+    <img src="../assets/tiempo1.jpeg" alt="Imagen 1">
+    <svg class="flecha" height="20" width="60">
+      <line x1="0" y1="10" x2="30" y2="10" stroke="#000" stroke-width="2" />
+      <polygon points="55,10 30,5 30,15" fill="#000" />
+    </svg>
+    <img src="../assets/tiempo2.jpeg" alt="Imagen 2">
+  </div>
+  <div class="imagen-row flecha-vertical">
+    <svg height="60" width="20">
+      <line x1="10" y1="0" x2="10" y2="60" stroke="#000" stroke-width="2" />
+      <polygon points="10,60 0,45 20,45" fill="#000" />
+    </svg>
+  </div>
+  <div class="imagen-row">
+    <img src="../assets/tiempo4.jpeg" alt="Imagen 4">
+    <svg class="flecha" height="20" width="60">
+  <line x1="30" y1="10" x2="60" y2="10" stroke="#000" stroke-width="2" />
+  <polygon points="5,10 25,5 25,15" fill="#000" />
+</svg>
+   <img src="../assets/tiempo3.jpeg" alt="Imagen 3">
+  </div>
+</div>
 </template>
 
 

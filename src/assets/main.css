@@ -518,6 +518,33 @@ h3 {
   text-align: left;
 }
 
+.imagen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.imagen-row {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  margin-top: 50px;
+}
+
+.flecha {
+  margin: 0 10px; /* Espaciado entre las flechas y las imágenes */
+}
+
+.flecha-vertical {
+  margin-left: 700px; /* Ajusta este valor según sea necesario */
+}
+
+.flecha,
+.flecha-vertical line {
+  stroke-dasharray: 5; /* Longitud de los segmentos y espacios en la línea punteada */
+}
+
 /* Estilos para moviles */
 
 @media screen and (max-width: 860px) {
